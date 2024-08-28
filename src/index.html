@@ -36,18 +36,20 @@
             </div>
           </div>
 
-          <div class="my-auto ml-auto block pr-4 md:hidden">
-            <div id="mobile-menu-button" class="group">
+          <div class="my-auto ml-auto block pr-4 md:hidden cursor-pointer">
+            <div id="mobile-menu-button" class="group peer">
               <div
-                class="top-0 group-open:top-2 relative mt-1 h-1 w-8 rounded-full bg-zinc-200 transition-all group-open:rotate-45"
+                class="relative top-0 mt-1 h-1 w-8 rounded-full bg-zinc-200 transition-all group-open:top-2 group-open:rotate-45"
               ></div>
               <div
                 class="mt-1 h-1 w-8 rounded-full bg-zinc-200 transition-all group-open:opacity-0"
               ></div>
               <div
-                class="top-0 group-open:-top-2 relative mt-1 h-1 w-8 rounded-full bg-zinc-200 transition-all group-open:-rotate-45"
+                class="relative top-0 mt-1 h-1 w-8 rounded-full bg-zinc-200 transition-all group-open:-top-2 group-open:-rotate-45"
               ></div>
             </div>
+
+            <div class="peer-open:block  hidden top-[62px] w-full left-0 absolute bg-gradient-to-r from-rose-500 to-pink-500 ">mobile menu</div>
           </div>
 
           <div class="hidden flex-1 items-center justify-end md:flex">
