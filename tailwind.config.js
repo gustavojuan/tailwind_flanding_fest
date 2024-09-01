@@ -20,6 +20,7 @@ module.exports = {
   },
   plugins: [
     require('./plugins/openVariant'),
-    require('./plugins/outlineSolid')
+    require('./plugins/outlineSolid'),
+    require('./plugins/animationDelay')
   ],
 };
